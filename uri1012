@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+public class uri {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double a, b, c;
+		final double pi = 3.14159;
+		
+		a = input.nextFloat();
+		b = input.nextFloat();
+		c = input.nextFloat();
+		
+		
+		double triangle = (a * c)/2;
+		System.out.printf("TRIANGULO: %.3f\n", triangle);
+		
+		double circle = ((c*c)*pi);
+		System.out.printf("CIRCULO: %.3f\n", circle);
+		
+		double trapezium = ((a + b) * c)/2;
+		System.out.printf("TRAPEZIO: %.3f\n", trapezium);
+		
+		double square = Math.pow(b, 2);
+		System.out.printf("QUADRADO: %.3f\n", square);
+		
+		double rectangle = a * b;
+		System.out.printf("RETANGULO: %.3f", rectangle);
+		
+	
+
+	}
+
+}
