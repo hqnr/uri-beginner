@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+public class uri {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		double x1, y1, x2, y2;
+		double distance, result;
+
+		x1 = input.nextDouble();
+		y1 = input.nextDouble();
+		x2 = input.nextDouble();
+		y2 = input.nextDouble();
+
+		double x = (x2 - x1);
+		double y = (y2 - y1);
+
+		distance = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+		System.out.printf("%.4f", distance);
+
+	}
+
+}
