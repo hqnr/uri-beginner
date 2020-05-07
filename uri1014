@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class uri {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int x;
+		float y;
+		
+		x = input.nextInt();
+		y = input.nextFloat();
+		float consum = x/y;
+		
+		System.out.printf("%.3f km/l", consum);
+		
+	
+	}
+
+}
