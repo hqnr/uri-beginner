@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class uri {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		final int consume = 12;
+		double h, km_h;
+
+		h = input.nextDouble();
+		km_h = input.nextDouble();
+
+		double liters = (h * km_h) / consume;
+		System.out.printf("%.3f", liters);
+
+	}
+
+}
