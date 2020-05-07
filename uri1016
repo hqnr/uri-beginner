@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class uri {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		int km;
+
+		km = input.nextInt();
+		int distance = km * 2;
+
+		System.out.printf("%d minutos", distance);
+
+	}
+
+}
